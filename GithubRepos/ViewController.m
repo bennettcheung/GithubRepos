@@ -61,6 +61,7 @@
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
             // This will run on the main queue
             [self.tableView reloadData];
+            [self.tableView setNeedsDisplay];
         }];
         
     }]; // 5
