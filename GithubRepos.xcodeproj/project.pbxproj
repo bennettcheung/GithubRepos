@@ -15,6 +15,7 @@
 		918856DC2125FC71008DB718 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 918856DB2125FC71008DB718 /* main.m */; };
 		918856E62125FC72008DB718 /* GithubReposTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918856E52125FC72008DB718 /* GithubReposTests.m */; };
 		918856F12125FC72008DB718 /* GithubReposUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 918856F02125FC72008DB718 /* GithubReposUITests.m */; };
+		918857002125FEB3008DB718 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 918856FF2125FEB3008DB718 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		918856EC2125FC72008DB718 /* GithubReposUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubReposUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918856F02125FC72008DB718 /* GithubReposUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GithubReposUITests.m; sourceTree = "<group>"; };
 		918856F22125FC72008DB718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		918856FE2125FEB3008DB718 /* Repo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		918856FF2125FEB3008DB718 /* Repo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				918856CD2125FC70008DB718 /* AppDelegate.m */,
 				918856CF2125FC70008DB718 /* ViewController.h */,
 				918856D02125FC70008DB718 /* ViewController.m */,
+				918856FE2125FEB3008DB718 /* Repo.h */,
+				918856FF2125FEB3008DB718 /* Repo.m */,
 				918856D22125FC70008DB718 /* Main.storyboard */,
 				918856D52125FC71008DB718 /* Assets.xcassets */,
 				918856D72125FC71008DB718 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				918856D12125FC70008DB718 /* ViewController.m in Sources */,
 				918856DC2125FC71008DB718 /* main.m in Sources */,
 				918856CE2125FC70008DB718 /* AppDelegate.m in Sources */,
+				918857002125FEB3008DB718 /* Repo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
